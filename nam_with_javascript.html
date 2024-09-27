@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="frm1" id="frm1" action="" method="post">
+     fist name:
+    <input type="text" name="name" id="name">
+
+        <input type="submit" name="submit" value="submit" onclick="return fun();">
+
+</form>
+</body>
+</html>
+
+
+<script>
+function fun() {  
+    var x = document.getElementById("frm1").value;  
+     alert("Hi"+" "+x+ "you have successfully submitted the details");  
+ }  
+
+</script>
